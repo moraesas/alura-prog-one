@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<script> 
+	function pulaLinha() {
+		document.write('<br>');
+		document.write('<br>');
+	}
+    function mostra(frase) {
+    	document.write(frase);
+    	pulaLinha();
+    }
+    
+   
+    
+    var numeroPensado = 4;
+
+    var tentativas = 1;
+
+    while (tentativas <=3) {
+
+    	var chute = parseInt(prompt(' Ja pensei. Qual você acha que é: ' ));
+
+    	if(chute == numeroPensado){
+    		mostra(" Uau! você acertou ! " + numeroPensado);
+    		break;
+    		
+    	} else {
+    		
+    		mostra(" Você errou! ");
+    	}
+
+    	tentativas++;
+	}
+
+
+
+  </script>
