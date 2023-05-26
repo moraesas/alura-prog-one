@@ -96,24 +96,61 @@ footer{
 	margin: 20px 0 0;
 }
 
-main{
+main {
 	width: 940px;
 	margin: 0 auto;
 }
 
-form{
+form {
 	margin: 40px 0;
 }
 
-form label{
+form label, form legend {
 	display: block;
 	font-size: 20px;
 	margin: 10px;
 }
 
-form input{
+.input-padrao {
 	display: block;
 	margin: 20px;
 	padding: 10px 20px;
 	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar{
+	width: 40%;
+	padding: 15px 0;
+	background: #FF7F50;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 40px;
+	transition: 1s background;
+	cursor: pointer;
+}
+
+.enviar:hover{
+	background: #FF4500;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #87CEFA;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
